@@ -3,12 +3,22 @@
 <head>
   <title>design communicates expectations</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="advice.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 </head>
 
-<body>
-  <h1>Design communicates expectations.</h1>
+<body data-gradient-degrees=90 data-gradient-start="rgb(255,255,255)" data-gradient-end="rgb(220,255,255)">
+  <div class="container">
+    <canvas id="canvas"></canvas>
+    <h1 style="z-index:100" contentEditable="true" id="text"><a href="/">Design communicates</a> expectations.</h1>
+    <div class="share">
+      <a id="download" href="javascript:void(0)">
+        <img src="ic_file_download_black_18dp.png" alt="Download this advice with your drawing">
+      </a>
+    </div>
+  </div>
+  <script>var brush_colour = "rgb(0,0,0)" </script>
 </body>
 </html>

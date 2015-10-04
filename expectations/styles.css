@@ -1,0 +1,58 @@
+html, body, .container {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  cursor: crosshair;
+}
+
+.container {
+  display: -webkit-flex;
+  display:flex;
+  -webkit-justify-content:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  align-items:center;
+}
+
+.advice {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+}
+
+.advice h1 {
+  margin: 0;
+}
+
+.share {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em 2em;
+  z-index: 6;
+}
+
+.share #download {
+  padding-left: 0.5em;
+}
+
+.advices-count {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em 2em;
+  font-size: 0.8em;
+}
+
+.advices-count a {
+  position: relative;
+  z-index: 6;
+}
