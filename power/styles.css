@@ -1,0 +1,36 @@
+body {
+  font-family: 'HelveticaNeueLTPro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+main {
+  display: block;
+  max-width: 40em;
+  margin: 0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.boardroom-background {
+  height: 100vh;
+  padding-top: 12vh;
+  padding-bottom: 12vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  background-image: url('boardroom.gif');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.boardroom-background h1 {
+  color: #ff0000;
+  font-weight: bolder;
+  font-size: 10vw;
+}
+
+.boardroom-background h1 a {
+  color: #ff0000;
+}
