@@ -1,6 +1,6 @@
 body {
   font-family: 'HelveticaNeueLTPro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -10,6 +10,31 @@ main {
   margin: 0 auto;
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.intro {
+  font-size: 1.2em;
+}
+
+i {
+  font-style: normal;
+}
+
+.red {
+  transition: color 1.5s ease-in-out;
+  -webkit-transition: color 1.5s ease-in-out;
+}
+
+.red:hover {
+  color: #ff0000;
+}
+
+.mark {
+  background-color: #fff000;
+}
+
+.underline {
+  border-bottom: 2px solid #ff0000;
 }
 
 .boardroom-background {
