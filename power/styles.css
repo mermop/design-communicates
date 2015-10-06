@@ -131,7 +131,8 @@ i, span {
 
 .download {
   float: right;
-  padding-right: 1em;
+  margin-right: 1em;
+  border-bottom: 4px solid #000;
 }
 
 footer {
