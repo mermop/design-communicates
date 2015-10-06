@@ -435,7 +435,7 @@ $( document ).ready(function() {
     function redraw_five(){
       context_five.clearRect(0, 0, context_five.canvas.width, context_five.canvas.height); // Clears the canvas
 
-      context_five.strokeStyle = '#FF0000';
+      context_five.strokeStyle = '#000000';
       context_five.lineJoin = "round";
       context_five.lineWidth = 5;
       context_five.globalAlpha = 0.5;
@@ -603,7 +603,7 @@ $( document ).ready(function() {
     function redraw_seven(){
       context_seven.clearRect(0, 0, context_seven.canvas.width, context_seven.canvas.height); // Clears the canvas
 
-      context_seven.strokeStyle = '#FF0000';
+      context_seven.strokeStyle = '#000000';
       context_seven.lineJoin = "round";
       context_seven.lineWidth = 5;
       context_seven.globalAlpha = 0.5;
