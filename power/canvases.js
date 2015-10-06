@@ -44,9 +44,12 @@ $( document ).ready(function() {
     context.fillText(text, 5, canvas.height + 50);
   }
 
-  function drawBackground(context) {
+  function drawBackground(context, strokeColor) {
     context.fillStyle = '#FFFFFF';
     context.fillRect(0, 0, canvas.width, canvas.height + 60);
+    context.strokeStyle = strokeColor;
+    context.lineWidth = 10;
+    context.strokeRect(5, 30, canvas.width - 10, canvas.height);
   }
 
   function clearCanvas(_context, _canvas) {
@@ -131,7 +134,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_two.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_two").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -216,7 +219,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_three.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_three").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -300,7 +303,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_four.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_four").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -384,7 +387,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_five.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_five").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -468,7 +471,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_six.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_six").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -552,7 +555,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_seven.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_seven").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -636,7 +639,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_eight.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_eight").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -720,7 +723,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_nine.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_nine").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -805,7 +808,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_ten.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_ten").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -889,7 +892,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_eleven.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_eleven").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -972,7 +975,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_twelve.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_twelve").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -1056,7 +1059,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_thirteen.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_thirteen").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 
@@ -1140,7 +1143,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_fourteen.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext);
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_fourteen").text());
     drawAttribution(outputContext, 'design.communicat.es/power');
 

@@ -133,3 +133,19 @@ i, span {
   float: right;
   padding-right: 1em;
 }
+
+footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 5vh 5vw;
+  font-size: 0.8em;
+}
+
+footer a {
+  color: #ff0000;
+}
+
+footer .design-communicates {
+  margin-bottom: 1em;
+}
