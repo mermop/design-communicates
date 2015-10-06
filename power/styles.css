@@ -121,7 +121,10 @@ i, span {
 .questions .question {
   font-weight: bold;
   margin-bottom: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
+
 .questions .answer {
   width: 100%;
   border: 10px solid #ff0000;
@@ -131,8 +134,12 @@ i, span {
 
 .download {
   float: right;
-  margin-right: 1em;
   border-bottom: 4px solid #000;
+}
+
+a.download {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
