@@ -25,11 +25,10 @@ body {
 
 .list-item {
   flex-grow: 1;
-  height: 50%;
+  height: 100%;
   padding: 1em;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position-x: 50%;
   min-width: 300px;
 }
