@@ -76,9 +76,7 @@ i, span {
   color: #ff0000;
 }
 
-.full.foucault {
-  background-color: rgba(0,0,0,0.2);
-  background-image: url('foucault.gif');
+.full {
   background-size: 25%;
   background-position-y: 25%;
   border-top: 20px solid #000000;
@@ -86,14 +84,22 @@ i, span {
   background-attachment: fixed;
 }
 
-.full.foucault .image-wrapper {
+.full.foucault {
+  background-image: url('foucault.gif');
+}
+
+.full.boardroom {
+  background-image: url('repeating-boardroom.gif');
+}
+
+.full .image-wrapper {
   display: block;
   margin: 0 auto;
   padding: 2em;
   max-width: 850px;
 }
 
-.full.foucault .image-wrapper img {
+.full .image-wrapper img {
   max-width: 100%;
   box-shadow: 20px 20px;
 }
@@ -101,10 +107,17 @@ i, span {
 .questions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: stretch;
+  padding: 5vh 2vw;
 }
 
+.questions .preamble {
+  flex-shrink: 0;
+  flex-grow: 1;
+  width: 100%;
+  padding: 1vh 1vw;
+}
 
 .questions .section {
   display: flex;
@@ -156,4 +169,8 @@ footer a {
 
 footer .design-communicates {
   margin-bottom: 1em;
+}
+
+canvas {
+  cursor: crosshair;
 }
