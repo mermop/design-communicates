@@ -16,7 +16,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext);
     drawQuestionText(outputContext, $("#question").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas, 0, 30);
 
@@ -136,7 +136,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_two").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_two, 0, 30);
 
@@ -221,7 +221,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_three").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_three, 0, 30);
 
@@ -305,7 +305,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_four").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_four, 0, 30);
 
@@ -389,7 +389,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_five").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_five, 0, 30);
 
@@ -473,7 +473,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_six").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_six, 0, 30);
 
@@ -557,7 +557,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#FF0000');
     drawQuestionText(outputContext, $("#question_seven").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_seven, 0, 30);
 
@@ -641,7 +641,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_eight").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_eight, 0, 30);
 
@@ -725,7 +725,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_nine").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_nine, 0, 30);
 
@@ -810,7 +810,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_ten").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_ten, 0, 30);
 
@@ -894,7 +894,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_eleven").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_eleven, 0, 30);
 
@@ -977,7 +977,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_twelve").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_twelve, 0, 30);
 
@@ -1061,7 +1061,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_thirteen").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_thirteen, 0, 30);
 
@@ -1145,7 +1145,7 @@ $( document ).ready(function() {
     var outputContext = outputCanvas.getContext("2d");
     drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_fourteen").text());
-    drawAttribution(outputContext, 'design.communicat.es');
+    drawAttribution(outputContext, 'design.communicat.es/power');
 
     outputContext.drawImage(canvas_fourteen, 0, 30);
 
