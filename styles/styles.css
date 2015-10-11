@@ -58,7 +58,7 @@ i, span {
   padding-bottom: 12vh;
   padding-left: 12vw;
   padding-right: 12vw;
-  background-image: url('boardroom.gif');
+  background-image: url('/images/boardroom.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -85,11 +85,11 @@ i, span {
 }
 
 .full.foucault {
-  background-image: url('foucault.gif');
+  background-image: url('/images/foucault.gif');
 }
 
 .full.boardroom {
-  background-image: url('repeating-boardroom.gif');
+  background-image: url('/images/repeating-boardroom.gif');
 }
 
 .full .image-wrapper {
