@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+}
 
 body {
   font-family: 'HelveticaNeueLTPro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
@@ -173,4 +176,9 @@ footer .design-communicates {
 
 canvas {
   cursor: crosshair;
+}
+
+.illustration {
+  float: left;
+  max-width: 50%;
 }
