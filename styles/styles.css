@@ -93,6 +93,13 @@ i, span {
   font-size: 8vw;
 }
 
+.bounce.background {
+  background-image: url('/images/bounce.gif');
+}
+.smile.background {
+  background-image: url('/images/smile.gif');
+}
+
 .boardroom.background {
   background-image: url('/images/boardroom.gif');
 }
