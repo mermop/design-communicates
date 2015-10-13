@@ -7,9 +7,13 @@ $( document ).ready(function() {
   var body = $("body");
 
   var canvas = document.getElementById('canvas'),
-    context = canvas.getContext('2d');
+  context = canvas.getContext('2d');
   canvas.width = 300;
   canvas.height = 300;
+  var clickX = new Array();
+  var clickY = new Array();
+  var clickDrag = new Array();
+  var paint;
   drawStuff();
 
   $("#download").click(function() {
@@ -27,6 +31,10 @@ $( document ).ready(function() {
     this.href = outputCanvas.toDataURL();
     this.download = "design.png";
   });
+
+  $("#clear").click(function() {
+    clearCanvas(context, canvas);
+  })
 
   function drawQuestionText(context, text) {
     context.font = "bold 12pt Helvetica";
@@ -57,14 +65,13 @@ $( document ).ready(function() {
   }
 
   function clearCanvas(_context, _canvas) {
+    clickX = new Array();
+    clickY = new Array();
+    clickDrag = new Array();
     _context.clearRect(0, 0, _context.canvas.width, _context.canvas.height); // Clears the canvas
-    context.beginPath();
   }
 
-
-
   function drawStuff() {
-
     $('#canvas').mousedown(function(e){
       var mouseX = e.pageX - this.offsetLeft;
       var mouseY = e.pageY - this.offsetTop;
@@ -88,11 +95,6 @@ $( document ).ready(function() {
     $('#canvas').mouseleave(function(e){
       paint = false;
     });
-
-    var clickX = new Array();
-    var clickY = new Array();
-    var clickDrag = new Array();
-    var paint;
 
     function addClick(x, y, dragging)
     {
