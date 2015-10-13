@@ -1,3 +1,7 @@
+// some of this is from http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/
+// some of it is from my advice thing
+// some is new
+// some is copy pasted
 
 $( document ).ready(function() {
   var body = $("body");

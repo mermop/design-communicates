@@ -7,10 +7,11 @@ img {
 }
 body {
   font-family: 'HelveticaNeueLTPro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
   font-size: 20px;
   margin: 0;
   line-height: 1.5;
-  background-color: rgb(243, 239, 236);
+  background-color: rgb(251, 248, 246);
 }
 
 i {
@@ -26,8 +27,8 @@ blockquote {
 /* typography */
 .intro {
   font-size: 1.2em;
+  font-weight: 700;
 }
-
 
 .red {
   transition: color 1.5s ease-in-out;
@@ -90,6 +91,15 @@ i, span {
   padding: 5vh 5vw;
 }
 
+.eggplant-divider {
+  margin: 1em 0;
+}
+
+.eggplant-divider img {
+  display: block;
+  max-width: 70px;
+  margin: 0 auto;
+}
 
 /* elements */
 
@@ -105,6 +115,9 @@ i, span {
   background-repeat: no-repeat;
   border-bottom: 20px solid #000000;
   border-top: 20px solid #000000;
+  -webkit-box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.5);
 }
 
 .background h1 {
@@ -115,10 +128,18 @@ i, span {
 
 .first.background {
   border-top: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .bounce.background {
   background-image: url('/images/bounce.gif');
+}
+.bounce.background h1 {
+  color: #2E3C7B;
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .red.background {
   background: rgba(235,246,255,1);
@@ -146,10 +167,20 @@ i, span {
   background-repeat: repeat;
   background-size: initial;
 }
-
 .emoji.background h1 {
   color: #0079FF;
   background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+}
+
+.paper.background {
+  background-image: url('/images/natural_paper.png');
+  background-repeat: repeat;
+  background-size: initial;
+}
+
+.paper.background h1 {
+  color: #538467;
   display: inline;
 }
 
@@ -177,7 +208,7 @@ i, span {
 .full .image-wrapper {
   display: block;
   margin: 0 auto;
-  padding: 2em;
+  padding: 3vh 3vw;
   max-width: 850px;
 }
 
@@ -189,15 +220,24 @@ i, span {
 }
 
 .question-section {
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: flex-end;*/
   padding: 10px;
   max-width: 340px;
 }
 
+.power .answer {
+  border-color: #ff0000;
+}
+
 .culture .answer {
   border-color: #0079FF;
+}
+
+.values .answer {
+  border-color: #538467;
+}
+
+.constraints .answer {
+  border-color: #2E3C7B;
 }
 
 .question {
@@ -209,7 +249,7 @@ i, span {
 
 .answer {
   width: 100%;
-  border: 10px solid #ff0000;
+  border: 10px solid #000000;
   background-color: #ffffff;
   margin-bottom: 20px;
   height: 320px;
