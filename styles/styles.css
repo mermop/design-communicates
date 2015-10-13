@@ -1,23 +1,17 @@
+/* components */
 * {
   box-sizing: border-box;
 }
-
+img {
+  max-width: 100%;
+}
 body {
   font-family: 'HelveticaNeueLTPro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
   font-size: 20px;
   margin: 0;
   line-height: 1.5;
-}
-
-main {
-  display: block;
-  max-width: 40em;
-  margin: 0 auto;
-  padding: 5vh 5vw;
-}
-
-.intro {
-  font-size: 1.2em;
+  background-color: rgb(251, 248, 246);
 }
 
 i {
@@ -28,6 +22,12 @@ blockquote {
   border-left: 3px solid #ff0000;
   padding-left: 1em;
   margin-left: 1em;
+}
+
+/* typography */
+.intro {
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .red {
@@ -52,28 +52,136 @@ i, span {
   border-bottom: 2px solid #ff0000;
 }
 
-.boardroom-background {
-  height: 100vh;
+
+.illustration {
+  float: left;
+  max-width: 50%;
+}
+
+.small.illustration {
+  width: 150px;
+  margin: 5px 10px;
+}
+
+/* layout */
+
+.entirety {
+  width: 100%;
+}
+
+.discussion {
+  /*width: 70%;*/
+  /*float: left;*/
+}
+.application {
+  display: flex;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 1vh 5vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*width: 30%;*/
+  /*float: left;*/
+}
+
+.text {
+  display: block;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 5vh 5vw;
+}
+
+.eggplant-divider {
+  margin: 1em 0;
+}
+
+.eggplant-divider img {
+  display: block;
+  max-width: 70px;
+  margin: 0 auto;
+}
+
+/* elements */
+
+.background {
+  min-height: 100vh;
   padding-top: 12vh;
   padding-bottom: 12vh;
   padding-left: 12vw;
   padding-right: 12vw;
-  background-image: url('/images/boardroom.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   border-bottom: 20px solid #000000;
+  border-top: 20px solid #000000;
+  -webkit-box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.5);
 }
 
-.boardroom-background h1 {
+.background h1 {
   color: #ff0000;
   font-weight: bolder;
   font-size: 8vw;
 }
 
-.boardroom-background h1 a {
-  color: #ff0000;
+.first.background {
+  border-top: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.bounce.background {
+  background-image: url('/images/bounce.gif');
+}
+.bounce.background h1 {
+  color: #2E3C7B;
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.red.background {
+  background: rgba(235,246,255,1);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255,1)), color-stop(100%, rgba(242,225,223,1)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf6ff', endColorstr='#f2e1df', GradientType=0 );
+}
+.red.background h1 {
+  color: #000;
+}
+.smile.background {
+  background-image: url('/images/smile.gif');
+}
+
+.boardroom.background {
+  background-image: url('/images/boardroom.gif');
+}
+
+.emoji.background {
+  background-image: url('/images/emoji.png');
+  background-repeat: repeat;
+  background-size: initial;
+}
+.emoji.background h1 {
+  color: #0079FF;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+}
+
+.paper.background {
+  background-image: url('/images/natural_paper.png');
+  background-repeat: repeat;
+  background-size: initial;
+}
+
+.paper.background h1 {
+  color: #538467;
+  display: inline;
 }
 
 .full {
@@ -86,6 +194,11 @@ i, span {
 
 .full.foucault {
   background-image: url('/images/foucault.gif');
+  border-left: 20px solid #000;
+  border-right: 20px solid #000;
+  -webkit-box-shadow: inset 15px 15px 10px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 15px 15px 10px -5px rgba(0,0,0,0.5);
+  box-shadow: inset 15px 15px 10px -5px rgba(0,0,0,0.5);
 }
 
 .full.boardroom {
@@ -95,54 +208,54 @@ i, span {
 .full .image-wrapper {
   display: block;
   margin: 0 auto;
-  padding: 2em;
+  padding: 3vh 3vw;
   max-width: 850px;
 }
 
 .full .image-wrapper img {
   max-width: 100%;
-  box-shadow: 20px 20px;
+  -webkit-box-shadow: 15px 15px 10px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 15px 15px 10px -5px rgba(0,0,0,0.5);
+  box-shadow: 15px 15px 10px -5px rgba(0,0,0,0.5);
 }
 
-.questions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  padding: 5vh 2vw;
-}
-
-.questions .preamble {
-  flex-shrink: 0;
-  flex-grow: 1;
-  width: 100%;
-  padding: 1vh 1vw;
-}
-
-.questions .section {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.question-section {
   padding: 10px;
   max-width: 340px;
 }
 
-.questions .section.who .answer {
-  border-color: #000000;
+.power .answer {
+  border-color: #ff0000;
 }
 
-.questions .question {
+.culture .answer {
+  border-color: #0079FF;
+}
+
+.values .answer {
+  border-color: #538467;
+}
+
+.constraints .answer {
+  border-color: #2E3C7B;
+}
+
+.question {
   font-weight: bold;
   margin-bottom: 10px;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-.questions .answer {
+.answer {
   width: 100%;
-  border: 10px solid #ff0000;
+  border: 10px solid #000000;
+  background-color: #ffffff;
   margin-bottom: 20px;
   height: 320px;
+  -webkit-box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.5);
+  box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.5);
 }
 
 .download {
@@ -173,4 +286,71 @@ footer .design-communicates {
 
 canvas {
   cursor: crosshair;
+}
+
+progress {
+  width: 100%;
+  height: 5px;
+  position: fixed;
+  /* Reset the appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  vertical-align: 0;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: red;
+  height: 5px;
+}
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: red;
+}
+
+progress::-moz-progress-bar {
+  background-color: red;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #000000;
+}
+progress[value]::-webkit-progress-value {
+  background-color: #FF0000;
+}
+
+/* https://css-tricks.com/reading-position-indicator/ */
+
+/* clearfix */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.entirety:before,
+.entirety:after {
+    content: "";
+    display: table;
+}
+.entirety:after {
+    clear: both;
+}
+.entirety {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
