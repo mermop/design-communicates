@@ -10,6 +10,7 @@ body {
   font-size: 20px;
   margin: 0;
   line-height: 1.5;
+  background-color: rgb(243, 239, 236);
 }
 
 i {
@@ -209,6 +210,7 @@ i, span {
 .answer {
   width: 100%;
   border: 10px solid #ff0000;
+  background-color: #ffffff;
   margin-bottom: 20px;
   height: 320px;
   -webkit-box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.5);
