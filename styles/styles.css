@@ -95,6 +95,22 @@ i, span {
   margin: 1em 0;
 }
 
+.illustrations {
+  position: relative;
+  height: 250px;
+}
+.left-illustration {
+  position: absolute;
+  left: -3em;
+  max-width: 300px;
+}
+
+.right-illustration {
+  position: absolute;
+  right: -3em;
+  max-width: 300px;
+}
+
 .eggplant-divider img {
   display: block;
   max-width: 70px;
@@ -131,6 +147,17 @@ i, span {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  background: rgba(235,246,255,1);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255,1)), color-stop(100%, rgba(242,225,223,1)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf6ff', endColorstr='#f2e1df', GradientType=0 );
+}
+.first.background h1 {
+  color: #000;
 }
 
 .bounce.background {
@@ -141,19 +168,7 @@ i, span {
   display: inline;
   background-color: rgba(255, 255, 255, 0.9);
 }
-.red.background {
-  background: rgba(235,246,255,1);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255,1)), color-stop(100%, rgba(242,225,223,1)));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
-  background: -o-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255,1) 0%, rgba(242,225,223,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf6ff', endColorstr='#f2e1df', GradientType=0 );
-}
-.red.background h1 {
-  color: #000;
-}
+
 .smile.background {
   background-image: url('/images/smile.gif');
 }

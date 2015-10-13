@@ -223,7 +223,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_three.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#FF0000');
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_three").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -307,7 +307,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_four.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#FF0000');
+    drawBackground(outputContext, '#000000');
     drawQuestionText(outputContext, $("#question_four").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -391,7 +391,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_five.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#FF0000');
+    drawBackground(outputContext, '#0079FF');
     drawQuestionText(outputContext, $("#question_five").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -475,7 +475,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_six.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#000000');
+    drawBackground(outputContext, '#0079FF');
     drawQuestionText(outputContext, $("#question_six").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -526,7 +526,7 @@ $( document ).ready(function() {
     function redraw_six(){
       context_six.clearRect(0, 0, context_six.canvas.width, context_six.canvas.height); // Clears the canvas
 
-      context_six.strokeStyle = '#FF0000';
+      context_six.strokeStyle = '#000000';
       context_six.lineJoin = "round";
       context_six.lineWidth = 5;
       context_six.globalAlpha = 0.5;
@@ -559,7 +559,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_seven.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#FF0000');
+    drawBackground(outputContext, '#2E3C7B');
     drawQuestionText(outputContext, $("#question_seven").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -643,7 +643,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_eight.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#000000');
+    drawBackground(outputContext, '#2E3C7B');
     drawQuestionText(outputContext, $("#question_eight").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -694,7 +694,7 @@ $( document ).ready(function() {
     function redraw_eight(){
       context_eight.clearRect(0, 0, context_eight.canvas.width, context_eight.canvas.height); // Clears the canvas
 
-      context_eight.strokeStyle = '#FF0000';
+      context_eight.strokeStyle = '#000000';
       context_eight.lineJoin = "round";
       context_eight.lineWidth = 5;
       context_eight.globalAlpha = 0.5;
@@ -727,7 +727,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_nine.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#000000');
+    drawBackground(outputContext, '#538467');
     drawQuestionText(outputContext, $("#question_nine").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -778,7 +778,7 @@ $( document ).ready(function() {
     function redraw_nine(){
       context_nine.clearRect(0, 0, context_nine.canvas.width, context_nine.canvas.height); // Clears the canvas
 
-      context_nine.strokeStyle = '#FF0000';
+      context_nine.strokeStyle = '#000000';
       context_nine.lineJoin = "round";
       context_nine.lineWidth = 5;
       context_nine.globalAlpha = 0.5;
@@ -812,7 +812,7 @@ $( document ).ready(function() {
     outputCanvas.height = canvas_ten.height + 60;
 
     var outputContext = outputCanvas.getContext("2d");
-    drawBackground(outputContext, '#000000');
+    drawBackground(outputContext, '#538467');
     drawQuestionText(outputContext, $("#question_ten").text());
     drawAttribution(outputContext, 'design.communicat.es');
 
@@ -863,7 +863,7 @@ $( document ).ready(function() {
     function redraw_ten(){
       context_ten.clearRect(0, 0, context_ten.canvas.width, context_ten.canvas.height); // Clears the canvas
 
-      context_ten.strokeStyle = '#FF0000';
+      context_ten.strokeStyle = '#000000';
       context_ten.lineJoin = "round";
       context_ten.lineWidth = 5;
       context_ten.globalAlpha = 0.5;
@@ -947,7 +947,7 @@ $( document ).ready(function() {
     function redraw_eleven(){
       context_eleven.clearRect(0, 0, context_eleven.canvas.width, context_eleven.canvas.height); // Clears the canvas
 
-      context_eleven.strokeStyle = '#FF0000';
+      context_eleven.strokeStyle = '#000000';
       context_eleven.lineJoin = "round";
       context_eleven.lineWidth = 5;
       context_eleven.globalAlpha = 0.5;
@@ -1030,7 +1030,7 @@ $( document ).ready(function() {
     function redraw_twelve(){
       context_twelve.clearRect(0, 0, context_twelve.canvas.width, context_twelve.canvas.height); // Clears the canvas
 
-      context_twelve.strokeStyle = '#FF0000';
+      context_twelve.strokeStyle = '#000000';
       context_twelve.lineJoin = "round";
       context_twelve.lineWidth = 5;
       context_twelve.globalAlpha = 0.5;
@@ -1114,7 +1114,7 @@ $( document ).ready(function() {
     function redraw_thirteen(){
       context_thirteen.clearRect(0, 0, context_thirteen.canvas.width, context_thirteen.canvas.height); // Clears the canvas
 
-      context_thirteen.strokeStyle = '#FF0000';
+      context_thirteen.strokeStyle = '#000000';
       context_thirteen.lineJoin = "round";
       context_thirteen.lineWidth = 5;
       context_thirteen.globalAlpha = 0.5;
@@ -1198,7 +1198,7 @@ $( document ).ready(function() {
     function redraw_fourteen(){
       context_fourteen.clearRect(0, 0, context_fourteen.canvas.width, context_fourteen.canvas.height); // Clears the canvas
 
-      context_fourteen.strokeStyle = '#FF0000';
+      context_fourteen.strokeStyle = '#000000';
       context_fourteen.lineJoin = "round";
       context_fourteen.lineWidth = 5;
       context_fourteen.globalAlpha = 0.5;
